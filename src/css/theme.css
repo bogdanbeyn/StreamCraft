@@ -1,3 +1,24 @@
+@font-face {
+  font-family: "Ubuntu-Regular";  
+  src: url("../fonts/Ubuntu-Regular.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal;
+   }
+
+@font-face {
+  font-family: "Ubuntu-Bold";  
+  src: url("../fonts/Ubuntu-Bold.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal;
+   }   
+
+@font-face {
+  font-family: "Ubuntu-Medium";  
+  src: url("../fonts/Ubuntu-Medium.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal;
+   }   
+
 body, html {
   background-color: #fcf3e3;
 }
@@ -6,8 +27,16 @@ body, html {
   margin: 0;
 }
 
-h4, h5, h6, ul, .blog-info, .sidebar {
-  font-family: Arial;
+p{
+  font-family: 'Ubuntu-Medium';
+}
+
+.textubun {
+  font-family: 'Ubuntu-Medium';
+}
+
+h4, h5, h6, span, ul, .blog-info, .sidebar {
+  font-family: 'Ubuntu-Regular';
   font-weight: bold;
   text-align: center;
 }
@@ -34,7 +63,7 @@ nav {
 }
 
 .brand-logo {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Ubuntu-Bold';
 }
 
 
@@ -56,7 +85,12 @@ nav {
   color: #F4a258;
 }
 
+.materialboxed{
+  border-radius: 10px;
+}
+
 .notification {
+  font-family: 'Ubuntu-Medium';
   border-radius: 50px;
   text-align: center;
   background-color: #708c69;
