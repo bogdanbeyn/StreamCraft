@@ -52,11 +52,15 @@ nav {
 
 
 /* Main */
+.downcolor {
+  color: #F4a258;
+}
 
 .notification {
   border-radius: 50px;
   text-align: center;
   background-color: #708c69;
+  color: #fff;
 }
 
 .achtung {
