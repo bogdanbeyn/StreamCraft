@@ -7,9 +7,10 @@ body, html {
 }
 
 h4, h5, h6, ul, .blog-info, .sidebar {
+  font-family: Arial;
+  font-weight: bold;
   text-align: center;
 }
-
 
 /* Nav */
 
@@ -32,6 +33,10 @@ nav {
   border-bottom: 2px solid #F4a258;
 }
 
+.brand-logo {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 
 /* Header */
 
@@ -49,6 +54,7 @@ nav {
 /* Main */
 
 .notification {
+  border-radius: 50px;
   text-align: center;
   background-color: #708c69;
 }
@@ -61,14 +67,67 @@ nav {
   padding: 25px 0px 25px 0px;
 }
 
+.card-panel-top{
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.card-panel-bottom {
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
 .staff-main .card-panel {
   margin-top: -5px;
 }
+
 .rocking{
   color: greenyellow;
 }
 
+.rules .chapter {
+  border-top: 1px solid #e1e6ef;
+  padding: 25px 0;
+}
+.mb-4, .my-4 {
+  margin-bottom: 1.5rem !important;
+}
 
+.rules h3 .num {
+    display: inline;
+    position: static;
+    font-weight: inherit;
+    line-height: unset;
+    cursor: pointer;
+    color: var(--main-color);
+}
+.rules .num {
+    position: absolute;
+    display: block;
+    width: 50px;
+    top: 10px;
+    left: 0;
+    line-height: 28px;
+    color: #171717;
+    font-size: inherit;
+    text-align: right;
+}
+
+.ver {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.ver .win {
+  padding-right: 50%;
+}
+.ver .mac {
+  padding-right: 0%;
+}
+.ver .lin {
+  padding-left: 50%;
+}
 /* Footer */
 
 .page-footer {
