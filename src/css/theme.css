@@ -149,9 +149,6 @@ nav {
   color: #3C91E6 !important;
 }
 
-
-/* Mobile Stuff */
-
 @media screen and (max-width: 992px) {
   .header img {
     max-width: 50%;
